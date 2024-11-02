@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Candle Token</title>
+	<link rel="stylesheet" href="./main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body style="display: grid; gap: 10px;">
+	<section class="head">
+		<header>
+			<div class="logo">
+				<div style="display: flex; align-items: center; justify-content: center;">
+					<img style="border-radius: 50px;" width="40px" height="40px" src="https://i.postimg.cc/sMJ7464K/candle.jpg">
+				</div>
+				<div style="display: flex; align-items: center; justify-content: center;">
+					<h4>Candle</h4>
+				</div>
+			</div>
+			<div style="display: flex; gap: 10px;">
+				<button id="util" class="lang">Stake</button>
+				<button class="lang" onclick="window.location.href='https://t.me/gasPump_bot/app?startapp=eyJyZWZfdXNlcl9pZCI6NTY3ODIwMzAzNiwidG9rZW5fYWRkcmVzcyI6IkVRQjl4SHlMZmVsMGRzTHA5Qzg1Z3FZbDRVZF8wZ3p1Nm52VGFCTHRzbHZ5M2ZfYSJ9'">Buy now</button>
+				<button class="lang">Eng</button>
+			</div>
+		</header>
+		<nav class="top-content">
+			<div class="title">
+				<h1>$CANDLE<br>Utility meme token<br>on TON</h1>
+			</div>
+			<div style="display: grid; align-items: center; justify-content: center; width: 100%;">
+				<nav class="swap">
+					<div class="swap-element">
+						<div class="swap-element-info">
+							<p class="swap-p">From</p>
+						</div>
+						<div class="swap-element-main">
+							<div class="ticker">
+								<div style="display: flex; align-items: center; justify-content: space-between; gap: 5px; background: #19191a; padding: 10px; border-radius: 50px; min-width: 135px;">
+									<div style="display: flex; align-items: center; justify-content: center;">
+										<img style="border-radius: 50px;" width="35px" height="35px" src="https://ton.org/download/ton_symbol.png">
+									</div>
+									<div style="display: flex; align-items: center; justify-content: center;">
+										<h3>TONCOIN</h3>
+									</div>
+								</div>
+								<div style="display: grid; align-items: center; justify-content: center;">
+									<input type="number" placeholder="0">
+								</div>
+							</div>
+						</div>
+						<div class="swap-element-info">
+							<p class="swap-p">To</p>
+						</div>
+						<div class="swap-element-main">
+							<div class="ticker">
+								<div style="display: flex; align-items: center; justify-content: space-between; gap: 5px; background: #19191a; padding: 10px; border-radius: 50px; min-width: 135px;">
+									<div style="display: flex; align-items: center; justify-content: center;">
+										<img style="border-radius: 50px;" width="35px" height="35px" src="https://i.postimg.cc/sMJ7464K/candle.jpg">
+									</div>
+									<div style="display: flex; align-items: center; justify-content: center;">
+										<h3>$CANDLE</h3>
+									</div>
+								</div>
+								<div style="display: grid; align-items: center; justify-content: center;">
+									<input type="number" placeholder="0" disabled>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="padding: 3%;">
+						<button class="swap-btn" onclick="window.location.href='https://t.me/gasPump_bot/app?startapp=eyJyZWZfdXNlcl9pZCI6NTY3ODIwMzAzNiwidG9rZW5fYWRkcmVzcyI6IkVRQjl4SHlMZmVsMGRzTHA5Qzg1Z3FZbDRVZF8wZ3p1Nm52VGFCTHRzbHZ5M2ZfYSJ9'">Swap</button>
+					</div>
+				</nav>
+				<nav class="stake">
+					<div class="swap-element">
+						<div style="display: flex; justify-content: space-between;" class="swap-element-info">
+							<p class="swap-p">APR 730%</p>
+							<p class="swap-p">30d</p>
+						</div>
+						<div class="swap-element-main">
+							<div class="ticker">
+								<div style="display: flex; align-items: center; justify-content: space-between; gap: 5px; background: transparent; padding: 10px; border-radius: 50px; min-width: 135px;">
+									<div style="display: flex; align-items: center; justify-content: center;">
+										<img style="border-radius: 50px;" width="35px" height="35px" src="https://i.postimg.cc/sMJ7464K/candle.jpg">
+									</div>
+									<div style="display: flex; align-items: center; justify-content: center;">
+										<h3>$CANDLE</h3>
+									</div>
+								</div>
+								<div style="display: grid; align-items: center; justify-content: center;">
+									<input type="number" min="2000000" max="30000000" placeholder="Min 2M">
+								</div>
+							</div>
+						</div>
+						<div class="swap-element-info">
+							<p class="swap-p">Reward</p>
+						</div>
+						<div class="swap-element-main">
+							<div class="ticker">
+								<div style="display: flex; align-items: center; justify-content: space-between; gap: 5px; background: transparent; padding: 10px; border-radius: 50px;">
+									<div style="display: flex; align-items: center; justify-content: center;">
+										<img width="35px" height="35px" src="https://i.ibb.co/Tg3mW7b/tether-usdt-logo.png">
+									</div>
+									<div style="display: flex; align-items: center; justify-content: center;">
+										<h3>$USDT</h3>
+									</div>
+								</div>
+								<div style="display: grid; align-items: center; justify-content: center;">
+									<input type="number" placeholder="0" disabled>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="padding: 3%;">
+						<button class="swap-btn" onclick="window.location.href='https://t.me/gasPump_bot/app?startapp=eyJyZWZfdXNlcl9pZCI6NTY3ODIwMzAzNiwidG9rZW5fYWRkcmVzcyI6IkVRQjl4SHlMZmVsMGRzTHA5Qzg1Z3FZbDRVZF8wZ3p1Nm52VGFCTHRzbHZ5M2ZfYSJ9'">Stake</button>
+					</div>
+				</nav>
+			</div>
+		</nav>
+		<div class="separator"></div>
+	</section>
+	<section class="main">
+		<main style="display: grid; gap: 10px;">
+			<div class="map">
+				<h2>Project Roadmap</h2>
+			</div>
+			<div class="roadmap">
+				<div class="roadmap-item">
+					<div class="roadmap-line">
+						<div style="display: grid; align-items: center; justify-content: center;">
+							<div class="y-circle"></div>
+						</div>
+						<div style="display: grid; align-items: center; justify-content: center;">
+							<div class="line"></div>
+						</div>
+					</div>
+					<div class="roadmap-info">
+						<div class="q-info">
+							<b class="q">Q3 2024<br>Beginning</b>
+						</div>
+						<div class="plan">
+							<ul>
+								<li>Create Telegram and X(Twitter) channels</li>
+								<li>Popularity increasing</li>
+								<li>Ton web3site launch</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="roadmap-item">
+					<div class="roadmap-line">
+						<div style="display: grid; align-items: center; justify-content: center;">
+							<div class="y-circle"></div>
+						</div>
+						<div style="display: grid; align-items: center; justify-content: center;">
+							<div class="line"></div>
+						</div>
+					</div>
+					<div class="roadmap-info">
+						<div class="q-info">
+							<b class="q">Q3 - Q4 2024<br>Active phase</b>
+						</div>
+						<div class="plan">
+							<ul>
+								<li>$CANDLE listing on GusPump</li>
+								<li>Start of P2E game delopment</li>
+								<li>$CANDLE listing on DeDust.io</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="roadmap-item">
+					<div class="roadmap-line">
+						<div style="display: grid; align-items: center; justify-content: center;">
+							<div class="y-circle"></div>
+						</div>
+						<div style="display: grid; align-items: center; justify-content: center;">
+							<div class="line"></div>
+						</div>
+					</div>
+					<div class="roadmap-info">
+						<div class="q-info">
+							<b class="q">Q1 2025<br>Defi & Ecosystem</b>
+						</div>
+						<div class="plan">
+							<ul>
+								<li>P2E game release</li>
+								<li>Collaborations and Airdrop</li>
+								<li>Token promotion, listing on CEX</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="roadmap-item">
+					<div class="roadmap-line">
+						<div style="display: grid; align-items: center; justify-content: center;">
+							<div class="y-circle"></div>
+						</div>
+						<div style="display: grid; align-items: center; justify-content: center;">
+							<div class="line"></div>
+						</div>
+					</div>
+					<div class="roadmap-info">
+						<div class="q-info">
+							<b class="q">2025 - 2026<br>Future</b>
+						</div>
+						<div class="plan">
+							<ul>
+								<li>Strategic partnerships</li>
+								<li>Planing for further actions</li>
+								<li>???</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</section>
+	<script>
+		const _switch = document.getElementById('util')
+		const swap = document.querySelector('.swap')
+		const stake = document.querySelector('.stake')
+		let mod = 0
+		_switch.onclick = () => {
+			if (mod == 1) {
+				_switch.innerHTML = 'Stake'
+				mod = 1
+				swap.style.display = 'grid'
+				stake.style.display = 'none'
+				mod = 0
+			} else {
+				_switch.innerHTML = 'Swap'
+				mod = 0
+				swap.style.display = 'none'
+				stake.style.display = 'grid'
+				mod = 1
+			}
+		}
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
