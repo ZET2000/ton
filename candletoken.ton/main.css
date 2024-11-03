@@ -253,6 +253,10 @@ footer {
 	max-width: 400px;
 }
 
+.stake-btn:disabled {
+	opacity: 0.8;
+}
+
 @media (min-width: 500px) and (max-width: 700px) {
 	.roadmap {
 		padding: 0 15%;
@@ -279,19 +283,6 @@ footer {
 		opacity: 1;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
